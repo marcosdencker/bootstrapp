@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Blog de Música</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+// aqui fica a navbar onde vai aparecer os botoes para ir a outras paginas
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">Blog Música do luiz</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="artigo.html">Artigos</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contato.html">Contato</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+// aqui fica os slides onde tem 3 fotos
+<section class="container-fluid p-0">
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+
+<div class="carousel-indicators">
+
+<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></button>
+
+<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></button>
+
+<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></button>
+
+</div>
+
+<div class="carousel-inner">
+
+<div class="carousel-item active" data-bs-interval="10000">
+
+<img src="img/rock_gato.jpg" class="d-block w-100 carousel-img" alt="Rock">
+
+<div class="carousel-caption d-none d-md-block">
+
+<h5>História do Rock</h5>
+
+<p>Descubra como o rock mudou a música mundial.</p>
+
+</div>
+
+</div>
+
+<div class="carousel-item" data-bs-interval="2000">
+
+<img src="img/show_walter.jpg" class="d-block w-100 carousel-img" alt="Show">
+
+<div class="carousel-caption d-none d-md-block">
+
+<h5>Grandes Shows</h5>
+
+<p>Os maiores festivais e apresentações.</p>
+
+</div>
+
+</div>
+
+<div class="carousel-item">
+
+<img src="img/dj_lee.jpg" class="d-block w-100 carousel-img" alt="DJ">
+
+<div class="carousel-caption d-none d-md-block">
+
+<h5>Música Eletrônica</h5>
+
+<p>Os DJs que dominam as pistas.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+
+<span class="carousel-control-prev-icon"></span>
+
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+
+<span class="carousel-control-next-icon"></span>
+
+</button>
+
+</div>
+
+</section>
+
+// aqui fica os arquivos onde tem 4 cards 
+
+<section class="container pb-5">
+
+<h2 class="mb-4">
+Últimos Artigos
+</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="img/rock_system.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">História do Rock</h5>
+
+<p class="card-text">
+A evolução do rock ao longo das décadas.
+</p>
+
+<a href="artigo.html" class="btn btn-primary">
+Ler mais
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="img/album_mamonas.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">
+Melhores álbuns do ano
+</h5>
+
+<p class="card-text">
+Os discos mais comentados.
+</p>
+
+<a href="#" class="btn btn-primary">
+Ler mais
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card">
+
+<img src="img/novo_djavan.jpg" class="card-img-top">
+
+<div class="card-body">
+
+<h5 class="card-title">
+Novos artistas
+</h5>
+
+<p class="card-text">
+Conheça novos talentos.
+</p>
+
+<a href="#" class="btn btn-primary">
+Ler mais
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+// aqui fica as categorias onde tem os estilos musicais 
+
+<section class="container pb-5">
+
+<h2 class="mb-3">
+Categorias
+</h2>
+
+<div class="row text-center">
+
+<div class="col-md-2">Rock</div>
+<div class="col-md-2">Pop</div>
+<div class="col-md-2">Rap</div>
+<div class="col-md-2">Jazz</div>
+<div class="col-md-2">Eletrônica</div>
+<div class="col-md-2">Indie</div>
+
+</div>
+
+</section>
+
+//quase a mesma coisa que o navbar
+
+<footer class="bg-dark text-white p-4">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-4">
+
+<h5>Sobre</h5>
+
+<p>
+Blog sobre música e artistas do luiz
+</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h5>Links</h5>
+
+<p>Home</p>
+<p>Artigos</p>
+<p>Contato</p>
+
+</div>
+
+<div class="col-md-4">
+
+<h5>Redes sociais</h5>
+
+<p>Instagram</p>
+<p>Twitter</p>
+
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
